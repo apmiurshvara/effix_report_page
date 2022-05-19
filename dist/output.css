@@ -518,6 +518,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0.5rem;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -557,6 +561,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[25rem\]{
   width: 25rem;
+}
+
+.w-\[30rem\]{
+  width: 30rem;
 }
 
 .max-w-screen-md{
