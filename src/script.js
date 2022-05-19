@@ -77,6 +77,11 @@ const chartElectricityLine = new Chart(ctxElectricityLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 8,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -132,6 +137,11 @@ const chartElectricityBar = new Chart(ctxElectricityBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 8,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -169,6 +179,11 @@ const chartHeatingLine = new Chart(ctxHeatingLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 8,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -221,6 +236,11 @@ const chartHeatingBar = new Chart(ctxHeatingBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 8,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -260,6 +280,11 @@ const chartTransportationLine = new Chart(ctxTransportationLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 8,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -314,6 +339,11 @@ const chartTransportationBar = new Chart(ctxTransportationBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 8,
+      },
+    },
     plugins: {
       title: {
         display: true,

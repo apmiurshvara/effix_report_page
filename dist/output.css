@@ -506,10 +506,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row-start: 2;
 }
 
-.row-start-3{
-  grid-row-start: 3;
-}
-
 .row-end-2{
   grid-row-end: 2;
 }
@@ -518,44 +514,29 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row-end: 3;
 }
 
-.row-end-4{
-  grid-row-end: 4;
-}
-
 .m-2{
   margin: 0.5rem;
 }
 
-.m-\[\.75rem_\.75rem_\.75rem_0\]{
-  margin: .75rem .75rem .75rem 0;
-}
-
-.m-8{
-  margin: 2rem;
-}
-
-.mt-11{
-  margin-top: 2.75rem;
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mt-4{
   margin-top: 1rem;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
-}
-
-.mt-14{
-  margin-top: 3.5rem;
-}
-
-.mt-8{
-  margin-top: 2rem;
+.ml-2{
+  margin-left: 0.5rem;
 }
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-11{
+  margin-top: 2.75rem;
 }
 
 .grid{
@@ -574,8 +555,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
-.w-\[30rem\]{
-  width: 30rem;
+.w-\[25rem\]{
+  width: 25rem;
+}
+
+.max-w-screen-md{
+  max-width: 768px;
 }
 
 .grid-cols-4{
@@ -590,24 +575,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-rows: auto auto;
 }
 
-.grid-rows-\[auto_auto_auto\]{
-  grid-template-rows: auto auto auto;
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-11{
   gap: 2.75rem;
-}
-
-.gap-8{
-  gap: 2rem;
-}
-
-.gap-y-11{
-  row-gap: 2.75rem;
-}
-
-.self-start{
-  align-self: flex-start;
 }
 
 .self-center{
@@ -666,11 +643,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[rgba\(76\2c 202\2c 13\2c 255\)\]{
   color: rgba(76,202,13,255);
-}
-
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-slate-900{
