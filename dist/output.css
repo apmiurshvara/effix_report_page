@@ -506,12 +506,48 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-row-start: 2;
 }
 
+.row-start-3{
+  grid-row-start: 3;
+}
+
+.row-start-4{
+  grid-row-start: 4;
+}
+
+.row-start-5{
+  grid-row-start: 5;
+}
+
+.row-start-6{
+  grid-row-start: 6;
+}
+
+.row-start-7{
+  grid-row-start: 7;
+}
+
 .row-end-2{
   grid-row-end: 2;
 }
 
 .row-end-3{
   grid-row-end: 3;
+}
+
+.row-end-4{
+  grid-row-end: 4;
+}
+
+.row-end-5{
+  grid-row-end: 5;
+}
+
+.row-end-6{
+  grid-row-end: 6;
+}
+
+.row-end-7{
+  grid-row-end: 7;
 }
 
 .m-2{
@@ -569,6 +605,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .max-w-screen-md{
   max-width: 768px;
+}
+
+.auto-rows-auto{
+  grid-auto-rows: auto;
 }
 
 .grid-cols-4{
