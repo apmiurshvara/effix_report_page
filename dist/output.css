@@ -591,6 +591,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 2.75rem;
 }
 
+.self-start{
+  align-self: flex-start;
+}
+
 .self-center{
   align-self: center;
 }
