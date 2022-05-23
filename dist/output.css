@@ -559,6 +559,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 25rem;
 }
 
+.w-\[30rem\]{
+  width: 30rem;
+}
+
 .max-w-screen-md{
   max-width: 768px;
 }
@@ -573,6 +577,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-rows-\[auto_auto\]{
   grid-template-rows: auto auto;
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .gap-6{
