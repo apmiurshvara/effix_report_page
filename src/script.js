@@ -36,6 +36,11 @@ const barChartOverall = new Chart(ctxOverall, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 20,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -77,6 +82,11 @@ const chartElectricityLine = new Chart(ctxElectricityLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 20,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -132,6 +142,11 @@ const chartElectricityBar = new Chart(ctxElectricityBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 20,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -169,6 +184,11 @@ const chartHeatingLine = new Chart(ctxHeatingLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 20,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -221,6 +241,11 @@ const chartHeatingBar = new Chart(ctxHeatingBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 20,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -260,6 +285,11 @@ const chartTransportationLine = new Chart(ctxTransportationLine, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 20,
+      },
+    },
     plugins: {
       legend: {
         display: false,
@@ -314,6 +344,11 @@ const chartTransportationBar = new Chart(ctxTransportationBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        right: 20,
+      },
+    },
     plugins: {
       title: {
         display: true,
@@ -374,6 +409,11 @@ const chartInvestmentsBar = new Chart(ctxInvestmentsBar, {
     ],
   },
   options: {
+    layout: {
+      padding: {
+        left: 12,
+      },
+    },
     plugins: {
       title: {
         display: true,
